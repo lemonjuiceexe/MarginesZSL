@@ -11,7 +11,7 @@ body{
 
 .wrapper{
     display: grid;
-    grid-template-columns : 2fr 8fr;
+    grid-template-columns : 1fr 9fr;
 }
 .scroll{
     color : black;
@@ -19,7 +19,7 @@ body{
     display: grid;
     place-content : center;
     position: fixed;
-    left : calc(10vw - 15px);
+    left : calc(5vw - 15px);
     top : calc(50vh - 110px);
 }
 .bt{
@@ -44,6 +44,8 @@ body{
     border : 1px solid white;
     display: inline-block;
     border-radius: 50px;
+
+    min-width: 240px;
 
     transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
