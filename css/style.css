@@ -32,6 +32,26 @@ body{
     cursor : pointer;
 }
 
+.navd{
+    margin-top : 5%;
+}
+.nav{
+    padding : 15px 45px;
+    margin : 10px 20px;
+    font-size: 1.5em;
+    /* background-color: white; */
+    color: white;
+    border : 1px solid white;
+    display: inline-block;
+    border-radius: 50px;
+
+    transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav:hover{
+    background-color: white;
+    color : black;
+}
+
 .wp{
     display: flex;
     flex-direction: row;
@@ -45,6 +65,8 @@ body{
     padding : 20px 0px;
     margin : 10px;
     width : 30%;
+
+    min-width : 200px; /*Width of the cover*/
 }
 .desc{
     height : 11%;
